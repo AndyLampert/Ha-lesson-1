@@ -1,26 +1,17 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>This is my Page's title</title>
-</head>
-<style>
-ul li {
-	list-style-type: none;
+<script>
+function myFunction()
+{
+	var varName = document.getElementById("andrew");
+	alert(varName.value);
 }
-</style>
 
+</script>
+</head>
 <body>
-	<h2>
-		<p>
-			<ul>
-				<li><a href="home.html">Home</a></li>
-				<li><a href="contact.html">Contacts</a></li>
-				<li><a href="questions.html">Questions</a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-			</ul>
-		</p>
-	</h2>
+<input type="box" id="andrew">
+<input type="button" onclick="myFunction()" value="Click here" />
 </body>
 </html>
